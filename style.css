@@ -282,7 +282,7 @@ section {
     width: 600px;
     height: 500px;
     padding: 75px 90px;
-    margin-left: 120px;
+    margin-left: auto;
 }
 
 .heading1 {
@@ -739,6 +739,10 @@ section {
     margin-bottom: 10px;
     display: block;
 }
+.contact-list a{
+    text-decoration: none;
+    color: #ededed;
+}
 
 .contact-list i {
     display: inline-block;
@@ -1084,20 +1088,22 @@ form textarea {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        gap: 150px;
     }
 
     .container1 {
         width: 80%;
-        padding: 75px 20px;
+        padding: 10px 20px;
         margin-left: 0px;
     }
 
     .heading1 {
         margin-bottom: 40px;
+        padding-top: 50px;
     }
 
     .main-text {
-        padding-top: 130px;
+        padding-top: 100px;
         margin-top: 0px;
     }
 
